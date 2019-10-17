@@ -90,9 +90,6 @@
 								<item id="fieldset:Server:moreinfo">
 									<rank>20</rank>
 									<items>
-										<item id="genericcommdevicetype_id">
-											<rank>10</rank>
-										</item>
 										<item id="brand_id">
 											<rank>20</rank>
 										</item>
