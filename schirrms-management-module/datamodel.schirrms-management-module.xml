@@ -217,10 +217,10 @@
 					<relation_code>impacts</relation_code>
 					<from_class>ManagementModule</from_class>
 					<neighbour_id>managementmoduleredundancy</neighbour_id>
-					<enabled>false</enabled>
+					<enabled>true</enabled>
 					<enabled_mode>fixed</enabled_mode>
 					<min_up>0</min_up>
-					<min_up_type>count</min_up_type>
+					<min_up_type>percent</min_up_type>
 					<min_up_mode>fixed</min_up_mode>
 				</field>
 			</fields>
