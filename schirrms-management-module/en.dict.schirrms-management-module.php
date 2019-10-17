@@ -14,6 +14,8 @@ Dict::Add('EN US', 'English', 'English', array(
 	'Class:ConnectableCI/Attribute:managementmodule_list' => 'Management module(s)',
 	'Class:ConnectableCI/Attribute:managementmodule_list+' => 'Embedded or dedicated management module(s) of this device',
 	'Class:ConnectableCI/Attribute:ManagementModuleRedundancy' => 'Redundancy mode',
-	'Class:ConnectableCI/Attribute:ManagementModuleRedundancy+' => 'This should normally always be set to \'0%\' as the device probably can work without it\'s management module',
+	'Class:ConnectableCI/Attribute:ManagementModuleRedundancy/percent' => '%2$% is up if at least %1$% %% of Management Modules are up',
+	'Class:ConnectableCI/Attribute:ManagementModuleRedundancy/count' => '%2$% is up if at least %1$% Management Modules are up',
+	'Class:ConnectableCI/Attribute:ManagementModuleRedundancy+' => 'This should normally always be set to \'0%%\' as the device probably can work without it\'s management module',
 ));
 ?>
