@@ -4,7 +4,7 @@
 	</constants>
 	<classes>
 		<class id="ManagementModule" _delta="define">
-			<parent>ConnectableCI</parent>
+			<parent>DatacenterDevice</parent>
 			<properties>
 				<category>bizmodel,searchable</category>
 				<abstract>false</abstract>
@@ -57,12 +57,6 @@
 						</item>
 						<item id="documents_list">
 							<rank>20</rank>
-						</item>
-						<item id="genericcommphysinterface_list">
-							<rank>40</rank>
-						</item>
-						<item id="genericcommvirtinterface_list">
-							<rank>50</rank>
 						</item>
 						<item id="providercontracts_list">
 							<rank>70</rank>
