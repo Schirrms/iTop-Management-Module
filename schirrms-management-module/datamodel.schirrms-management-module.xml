@@ -187,7 +187,7 @@
 				<relation id="impacts" _delta="define">
 					<neighbours>
 						<neighbour id="managementmoduleredundancy" _delta="define">
-							<attribute>managementmodule_list</attribute>
+							<attribute>connectableci_id</attribute>
 						</neighbour>
 					</neighbours>
 				</relation>
@@ -209,7 +209,7 @@
 				<field id="ManagementModuleRedundancy" xsi:type="AttributeRedundancySettings" _delta="define">
 					<sql>managementmoduleredundancy</sql>
 					<relation_code>impacts</relation_code>
-					<from_class>ConnectableCI</from_class>
+					<from_class>ManagementModule</from_class>
 					<neighbour_id>managementmoduleredundancy</neighbour_id>
 					<enabled>false</enabled>
 					<enabled_mode>fixed</enabled_mode>
