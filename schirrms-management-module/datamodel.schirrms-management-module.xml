@@ -220,7 +220,7 @@
 					<enabled>true</enabled>
 					<enabled_mode>fixed</enabled_mode>
 					<min_up>0</min_up>
-					<min_up_type>percent</min_up_type>
+					<min_up_type>count</min_up_type>
 					<min_up_mode>user</min_up_mode>
 				</field>
 			</fields>
