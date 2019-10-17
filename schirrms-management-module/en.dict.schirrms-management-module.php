@@ -14,6 +14,8 @@ Dict::Add('EN US', 'English', 'English', array(
 	'Class:ManagementModule/Attribute:connectableci_name' => 'Device hosting this management module name',
 	'Class:ManagementModule/Attribute:iosversion_id' => 'Firmware/Software version',
 	'Class:ManagementModule/Attribute:iosversion_name' => 'Firmware/Software version Name',
+	'Class:ManagementModule/Attribute:connectableci_id_finalclass_recall' => 'Device Type',
+	'Class:ManagementModule/Attribute:connectableci_id_obsolescence_flag' => 'Status',
 	'Class:ConnectableCI/Attribute:managementmodule_list' => 'Management module(s)',
 	'Class:ConnectableCI/Attribute:managementmodule_list+' => 'Embedded or dedicated management module(s) of this device',
 	'Class:ConnectableCI/Attribute:ManagementModuleRedundancy' => 'Redundancy mode (normally set at 0, to allow the loss of the management)',
