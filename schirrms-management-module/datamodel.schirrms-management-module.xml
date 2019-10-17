@@ -230,6 +230,17 @@
 				</details>
 			</presentation>
 		</class>
+		Thanks to VDumas (again), the correct way to extend an AttributeEnum field
+		-->
+		<class id="Model" _delta="must_exist">
+			<fields>
+				<field id="type" xsi:type="AttributeEnum" _delta="must_exist">
+					<values>
+						<value id="ManagementModule" _delta="define">ManagementModule</value>	
+					</values>
+				</field>
+			</fields>
+		</class>
 	</classes>
 	<menus>
 	</menus>
