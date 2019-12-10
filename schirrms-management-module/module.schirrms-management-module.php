@@ -16,7 +16,7 @@ SetupWebPage::AddModule(
 		//
 		'dependencies' => array(
 			'itop-config-mgmt/2.5.0',
-			'schirrms-comm-interface/0.6.6'
+			'schirrms-comm-interface/0.6.6||schirrms-generic-connection/0.7.3'
 		),
 		'mandatory' => false,
 		'visible' => true,
