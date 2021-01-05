@@ -5,7 +5,7 @@
 
 SetupWebPage::AddModule(
 	__FILE__, // Path to the current file, all other file names are relative to the directory containing this file
-	'schirrms-management-module/0.1.0',
+	'schirrms-management-module/0.1.1',
 	array(
 		// Identification
 		//
@@ -16,6 +16,7 @@ SetupWebPage::AddModule(
 		//
 		'dependencies' => array(
 			'itop-config-mgmt/2.5.0',
+			'schirrms-connected-enclosures/1.2.0',
 			'schirrms-comm-interface/0.6.6||schirrms-generic-connection/0.7.3'
 		),
 		'mandatory' => false,
